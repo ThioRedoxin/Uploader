@@ -1,6 +1,6 @@
  #!/bin/sh
  
-git config user.name "Thio.Redoxin@gmx.de"
+git config user.name "ThioRedoxin"
 git config user.email "Thio.Redoxin@gmx.de"
  
  echo "hi"
