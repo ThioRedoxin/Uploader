@@ -5,6 +5,8 @@
  export SSH_ASKPASS=""
 
  
+ cd /home/sysgen/Documents/LWB/Uploader/
+ 
 git config user.name "ThioRedoxin"
 git config user.email "Thio.Redoxin@gmx.de"
  
