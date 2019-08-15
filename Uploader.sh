@@ -12,8 +12,8 @@ cp /home/sysgen/Documents/LWB/PredictingProteinInteractions/data/106Test/NNexper
 
 git add .
 git commit -m "new update"
-# git -c "user.name=ThioRedoxin" -c "user.email=Thio.Redoxin@gmx.de" push https://github.com/ThioRedoxin/Uploader
+git -c "user.name=ThioRedoxin" -c "user.email=Thio.Redoxin@gmx.de" push https://github.com/ThioRedoxin/Uploader
 
-git push https://ThioRedoxin:proteininteractions@myrepository.biz/file.git --all
+# git push https://ThioRedoxin:proteininteractions@myrepository.biz/file.git --all
 
 echo "uploaded to github"
