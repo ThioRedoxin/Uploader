@@ -11,6 +11,6 @@ git add .
 git commit -m "new update"
 # git push origin master
 
-git push https://ThioRedoxin:proteininteractions@Uploader/file.git --all
+git push https://ThioRedoxin:proteininteractions@myrepository.biz/file.git --all
 
 echo "uploaded to github"
