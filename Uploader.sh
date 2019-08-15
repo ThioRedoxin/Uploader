@@ -9,6 +9,8 @@ cp /home/sysgen/Documents/LWB/PredictingProteinInteractions/data/106Test/NNexper
 
 git add .
 git commit -m "new update"
-git push origin master
+# git push origin master
+
+git push https://ThioRedoxin:proteininteractions@Uploader.biz/file.git --all
 
 echo "uploaded to github"
