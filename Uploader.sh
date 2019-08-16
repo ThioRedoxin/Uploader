@@ -24,7 +24,7 @@ while IFS= read -r line; do
     echo "Text read from file: $line"
 done < /home/sysgen/Documents/LWB/Uploader/password/file
 
-print $line
+echo $line
 # git push https://ThioRedoxin:proteininteractions@github.com/ThioRedoxin/Uploader --all
 
 
