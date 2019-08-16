@@ -28,7 +28,7 @@ done < /home/sysgen/Documents/LWB/Uploader/password/file
 echo $name
 echo $line
 
-# echo $("git push $line --all")
+echo $("git push $name --all")
 
 
 
