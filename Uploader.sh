@@ -19,19 +19,19 @@ git commit -m "new update"
 # git -c "user.name=ThioRedoxin" -c "user.email=Thio.Redoxin@gmx.de" push https://github.com/ThioRedoxin/Uploader
 
 
+# 
+# while IFS= read -r line; do
+#     name="$line"
+# #     echo "Text read from file: $line"
+# done < /home/sysgen/Documents/LWB/Uploader/password/file
+# 
+# echo $name
+# echo $line
 
-while IFS= read -r line; do
-    name="$line"
-#     echo "Text read from file: $line"
-done < /home/sysgen/Documents/LWB/Uploader/password/file
-
-echo $name
-echo $line
-
-echo $("git push $name --all")
+# echo $("git push $name --all")
 
 
-# git push https://ThioRedoxin:proteininteractions@github.com/ThioRedoxin/Uploader --all
+git push https://ThioRedoxin:proteininteractions@github.com/ThioRedoxin/Uploader --all
 
 
 
