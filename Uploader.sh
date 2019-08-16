@@ -25,7 +25,9 @@ while IFS= read -r line; do
 done < /home/sysgen/Documents/LWB/Uploader/password/file
 
 echo $line
-echo $("git push $line --all")
+echo $line
+
+# echo $("git push $line --all")
 
 
 
