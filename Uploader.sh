@@ -18,6 +18,16 @@ git add .
 git commit -m "new update"
 # git -c "user.name=ThioRedoxin" -c "user.email=Thio.Redoxin@gmx.de" push https://github.com/ThioRedoxin/Uploader
 
-git push https://ThioRedoxin:proteininteractions@github.com/ThioRedoxin/Uploader --all
+
+
+while IFS= read -r line; do
+    echo "Text read from file: $line"
+done < /home/sysgen/Documents/LWB/Uploader/password/file
+
+print $line
+# git push https://ThioRedoxin:proteininteractions@github.com/ThioRedoxin/Uploader --all
+
+
+
 
 echo "uploaded to github"
