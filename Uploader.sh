@@ -28,10 +28,10 @@ done < /home/sysgen/Documents/LWB/Uploader/password/file
 echo $name
 echo $line
 
-# echo $("git push $name --all")
+echo $("git push $name --all")
 
 
-git push https://ThioRedoxin:proteininteractions@github.com/ThioRedoxin/Uploader --all
+# git push https://ThioRedoxin:proteininteractions@github.com/ThioRedoxin/Uploader --all
 
 
 
