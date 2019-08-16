@@ -21,10 +21,11 @@ git commit -m "new update"
 
 
 while IFS= read -r line; do
+    name="$line"
     echo "Text read from file: $line"
 done < /home/sysgen/Documents/LWB/Uploader/password/file
 
-echo $line
+echo $name
 echo $line
 
 # echo $("git push $line --all")
